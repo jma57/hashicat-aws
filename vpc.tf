@@ -1,5 +1,5 @@
 
-resource aws_vpc "hashicat" {
+resource aws_vpc "myvpc" {
   cidr_block           = var.address_space
   enable_dns_hostnames = true
 
